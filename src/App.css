@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.main{
+  background-image:url('photo1.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+  }
+
+#getstarted{
+  text-decoration:none;
+  padding:8px 8px;
+  border:2px solid black;
+  border-radius:25px;
+  font-weight:bold;
+  background-color:powderblue;
+  display:flex;
+  border-radius:25px;
+  justify-content:center;
+  width:20vh;
+  align-items:center;
+  margin-right:20px;
+  margin-top:10px;
+
+}
+
+.admin{
+  border:2px solid black;
+  padding:20px;
+  width:30%;
+  justify-content:center;
+  background-color:rgb(230, 221, 221);
+  font-weight:500;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:30px;
+  border-radius:25px;
+}
+
+.label{
+   display:block;
+   padding:10px;
+   align-items:center;
+   justify-content:center;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+ 
+}
+
+.register{
+  display:flex;
+  justify-content:center;
+}
+
+.heading{
+  color:purple;
+  justify-content:center;
+}
+
+
